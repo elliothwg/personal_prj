@@ -5,7 +5,7 @@ warnings.filterwarnings(action='ignore')
 
 
 train_data = pd.read_json("d:/result/sentiment_analysis/training.json")
-# train_data = pd.read_json("d:/result/sentiment_analysis/okt_result/1801-레드벨벳.json")
+
 
 
 
@@ -83,7 +83,6 @@ model=load_model('model.1801')
 
 #
 #
-# test_files=["1801-장덕철.json","1801-멜로망스.json","1801-윤종신.json","1806-닐로.json","1806-방탄소년단.json","1808-숀.json","1808-방탄소년단.json","1808-TWICE.json"]
 #
 import os
 path_dir="d:/result/sentiment_analysis/okt_result/"
